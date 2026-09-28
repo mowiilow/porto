@@ -34,3 +34,29 @@ a {
   color: white;
   text-decoration: none;
 }
+
+/*hero section*/
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 24px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  width: 250px;
+  border-radius: 8px;
+}
+
+.hero p {
+  margin-top: 16px;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
