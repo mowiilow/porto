@@ -60,3 +60,9 @@ img {
 .hero h1 {
   font-size: 48px;
 }
+
+.about {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
