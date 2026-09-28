@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+  background-color: #100c0a;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+nav {
+  display: flex;
+  gap: 24px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
