@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #101828;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  align-items: center;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.logo h1 {
+  font-family: "Cinzel", serif;
+  font-weight: 900;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  color: #ffcc00; /* Yellow/Gold matching graduation cap-ka logo-ga */
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+a {
+  color: #687f95;
+  text-decoration: none;
+}
