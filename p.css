@@ -121,3 +121,8 @@ button {
   padding: 16px;
   background-color: #f86b42;
 }
+
+footer {
+  text-align: center;
+  padding: 1rem;
+}
